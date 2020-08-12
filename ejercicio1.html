@@ -9,24 +9,29 @@
     </head>
     <body>
         <section class=marco>
-        <button  type="button" class="btn btn-primary" onclick="ubicacion()" >Obtener Ubicacion</button>
+        <button class="boton_personalizado" onclick="ubicacion()">Obtener Ubicacion</button>
         <p></p>
-        <div>
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-action active">
-                Información
-            </li>
-            <li class="list-group-item list-group-item-action">
-                <strong>Latitud</strong>
-              <span class="badge badge-primary badge-pill largas" id="lat"></span>
-            </li>
-            <li class="list-group-item list-group-item-action">
-                <strong>Longitud</strong>
-              <span class="badge badge-primary badge-pill largas" id="lon"></span>
-            </li>
-          </ul>
-          </div>
-        </div>
-</section>
-    </body>
+            <table>
+                <tr>
+                   <th class="completalinea" colspan="2"> Información </th> 
+                </tr>
+         
+                <tr>
+                    <td class="corta"><strong>Latitud</strong></td>
+                    <th class="largas" id="lat"></th>
+                </tr>
+         
+                <tr>
+                  <td class="corta"><strong>Longitud</strong></td>
+                  <th class="largas" id="lon"></th>
+                </tr>
+         
+            </table>
+        </section>
+         
+        <section>
+         
+         
+        </section>
+        </body>
 </html>
