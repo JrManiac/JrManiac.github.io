@@ -2,3 +2,11 @@
     width:1000px;
     height:500px;
 }
+div.marco {
+	background-color: #fcf8e5;
+	position: relative;
+	width: 500px;
+	padding: 10px;
+	margin: auto;
+ 
+}
